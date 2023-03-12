@@ -224,3 +224,67 @@
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
 }
+
+/* Social media link in landing page */
+.social-nav {
+  max-width: 28rem;
+  display: flex;
+  align-items: center;
+  pointer-events: none;
+}
+.social-nav:hover {
+  pointer-events: auto;
+}
+.sm-header {
+  pointer-events: auto;
+}
+.line {
+  width: 4rem;
+  height: 3px;
+  background-color: #fff;
+  margin-left: 1rem;
+  margin-right: auto;
+  transform: scaleX(0.1);
+  transform-origin: left;
+  transition: transform 0.5s;
+}
+.social-nav:hover .line {
+  transform: scaleX(1);
+}
+.soc-list {
+  display: flex;
+  list-style: none;
+}
+.nav-item {
+  margin-inline: 1rem;
+  opacity: 0;
+  transition: transform 0.5s, opacity 0.5s;
+}
+.nav-item:nth-child(odd) {
+  transform: translateY(5rem);
+}
+.nav-item:nth-child(even) {
+  transform: translateY(-5rem);
+}
+.social-nav:hover .nav-item {
+  opacity: 1;
+  transform: translateY(0);
+}
+.nav-link {
+  font-size: 1.5rem;
+}
+.nav-link i {
+  transition: color 0.5s;
+}
+.nav-link:hover i.fa-facebook-f {
+  color: #3b5998;
+}
+.nav-link:hover i.fa-twitter {
+  color: #1da1f2;
+}
+.nav-link:hover i.fa-github {
+  color: #ea4c89;
+}
+.nav-link:hover i.fa-linkedin-in {
+  color: #0077b5;
+}
