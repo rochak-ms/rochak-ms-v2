@@ -116,11 +116,14 @@ const Contact = () => {
 
           <button
             type='submit'
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-medium shadow-md shadow-primary'
+            className='bt'
+            id="bt"
           >
             {loading ? "Sending..." : "Send"}
+            <span className="msg" id="msg"></span>
           </button>
         </form>
+        
       </motion.div>
 
       <motion.div

@@ -8,6 +8,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import web1 from "./web1.png";
 import ProPic from "./ProPic1.png";
+import ProPic1 from "./ProPic.png";
 
 import Logo from "./Logo.png";
 
@@ -32,6 +33,8 @@ import FindaMeal from "./FindaMeal.gif";
 import Weather from "./WeatherD.png";
 import Texteditor from "./Texteditor.gif";
 import Booksearch from "./Booksearch.png";
+
+import CV from "./CV.pdf";
 
 export {
   logo,
@@ -64,4 +67,6 @@ export {
   Texteditor,
   Booksearch,
   ProPic,
+  ProPic1,
+  CV,
 };

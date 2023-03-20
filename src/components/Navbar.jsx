@@ -60,6 +60,7 @@ const Navbar = () => {
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
+            
           ))}
         </ul>
 
@@ -89,7 +90,9 @@ const Navbar = () => {
                   }}
                 >
                   <a href={`#${nav.id}`}>{nav.title}</a>
+                
                 </li>
+                
               ))}
             </ul>
           </div>
