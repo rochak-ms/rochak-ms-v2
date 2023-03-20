@@ -36,7 +36,7 @@ This React Portfolio is a single-page application portfolio has a single Header,
 
 ## Usage
 
-Open the => [Link](https://rochak-ms.github.io/rochak-ms/)
+Open the => [Link](https://rochak-ms.github.io/rochak-ms-v2/)
 
 Below is the demo screenshots of the above link.
 
@@ -66,9 +66,9 @@ Below is the demo screenshots of the above link.
 
 #
 
-[Deployed Page Link](https://rochak-ms.github.io/rochak-ms/)
+[Deployed Page Link](https://rochak-ms.github.io/rochak-ms-v2/)
 
-[GitHub Repository Link](https://github.com/rochak-ms/rochak-ms)
+[GitHub Repository Link](https://github.com/rochak-ms/rochak-ms-v2)
 
 ## License
 
